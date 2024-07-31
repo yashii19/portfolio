@@ -1,68 +1,63 @@
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f7f7f7;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    color: #333;
-}
-header {
-    background-color: #ffffff;
-    color: #333;
-    padding: 40px 20px;
-    text-align: center;
-    border-bottom: 1px solid #eaeaea;
-}
-header h1 {
-    margin: 0;
-    font-size: 48px;
-    font-weight: 700;
-}
-header h2 {
-    margin: 10px 0 0;
-    font-size: 24px;
-    font-weight: 400;
-}
-main {
-    flex: 1;
-    padding: 40px 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-section {
-    background: #ffffff;
-    padding: 40px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
-    border: 1px solid #eaeaea;
-}
-section h2 {
-    margin-top: 0;
-    font-size: 32px;
-    font-weight: 600;
-}
-.about p, .projects ul {
-    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-.projects ul {
-    list-style-type: none;
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1, header h2 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
     padding: 0;
 }
-.projects ul li {
-    padding: 10px 0;
-    border-bottom: 1px solid #eaeaea;
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
-.projects ul li:last-child {
-    border-bottom: none;
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
 footer {
     text-align: center;
-    padding: 20px;
-    background-color: #ffffff;
-    color: #999;
-    border-top: 1px solid #eaeaea;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
