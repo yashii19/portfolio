@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.desktop {
+    flex: 1;
+    background: url('path-to-your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    position: relative;
+    padding: 20px;
+}
+.file {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    width: 200px;
+    position: absolute;
+    cursor: pointer;
+}
+.file h2 {
+    margin: 0;
+    font-size: 16px;
+}
+.file p {
+    font-size: 14px;
+    margin: 0;
+}
+.dock {
+    background-color: #333;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.3);
+}
+.dock a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.dock a:hover {
+    text-decoration: underline;
+}
